@@ -9,7 +9,7 @@ class Employee:
         print(f"Employee ID: {self.employee_id}")
 
     def calculate_salary(self):
-        print(f"Basic salary: {self.basic_salary}")
+        return self.basic_salary
 
 class Developer(Employee):
     def __init__(self,name,employee_id,basic_salary,programming_language):
